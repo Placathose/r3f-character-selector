@@ -54,7 +54,7 @@ export const UI = () => {
         <div className="flex justify-between items-center">
           <a
             className="pointer-events-auto"
-            href="/"
+            href="#/"
           >
             <p className="text-white text-2xl font-bold">ONSCROLL</p>
           </a>
