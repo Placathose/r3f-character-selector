@@ -31,7 +31,7 @@ const AssetsBox = () => {
             key={index}
             className={`w-20 h-20 rounded-md overflow-hidden bg-gray-200 pointer-events-auto hover:opacity-100 transition-all border-2 duration-500`}
           >
-            <img src={pb.files.getUrl(asset, asset.thumbnail)} />
+            <img src={pb.files.getURL(asset, asset.thumnail)} />
           </button>
         ))}
       </div>
