@@ -2,6 +2,8 @@ import { useGLTF, Html } from '@react-three/drei'
 import { useRef } from 'react'
 import { useConfiguratorStore } from '../store'
 import { pb } from '../store'
+import { Suspense } from "react";
+import Asset from './Asset';
 
 function Avatar({ ...props }) {
   const group = useRef()

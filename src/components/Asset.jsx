@@ -19,7 +19,7 @@ function Asset({url, skeleton}) {
   }, [scene])
 
   return attachedItems.map((item, index) => (
-    <SkinnedMesh 
+    <skinnedMesh 
       key={index}
       skeleton={skeleton} 
       geometry={item.geometry}
